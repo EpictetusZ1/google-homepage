@@ -50,6 +50,7 @@ body {
     color: #FEFEFE;
     font-weight: bold;
     border: none;
+    border-radius: 2px;
     height: 2.3em;
     width: 5em;
     margin: 0 1.8em 0 1em;
@@ -132,8 +133,47 @@ body {
     width: auto;
 }
 
+.search_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+}
 
+#search_button {
+    display: flex;
+    align-items: center;
+    margin: 0 0.5em 0 0.5em;
+    height: 2.7em;
+    width: 10em;
+    border: none;
+    border-radius: 3px;
+    color: #5F6368;
+}
 
+#search_button:hover {
+    color: #222222;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+}
+
+#lucky_button {
+    display: flex;
+    align-items: center;
+    margin: 0 0.5em 0 0.5em;
+    height: 2.7em;
+    width: 10em;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    color: #5F6368;
+}
+
+#lucky_button:hover {
+    color: #222222;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+}
 
 
 
