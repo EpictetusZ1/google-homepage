@@ -36,16 +36,17 @@ body {
 .magnify {
     display: flex;
     justify-content: center;
-    height: 24px;
-    width: 24px;
+    height: 22px;
+    width: 22px;
     align-self: center;
-    padding-left: 8px;
+    padding-left: 0.8em;
 }
 
 .search {
     display: flex;
     flex: 100%;
     justify-content: center;
+    padding-left: 0;
 }
 
 #search_box {
@@ -53,6 +54,7 @@ body {
     justify-content: center;
     width: 47vh;
     margin-right: 10px;
+    padding-left: 0;
     border: none;
     outline: none;
 }
